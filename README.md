@@ -4,7 +4,7 @@
 This is my capstone project for my Udacity DataScience Course.
 
  # Predicting best location for Halal Restaurant
-### Introduction: 
+### Motivation: 
    Halal is an Arabic word meaning lawful or permitted. In
 reference to food, it is the dietary standard, as prescribed in the Qur’an (the
 Muslim scripture).since most countries have at least a small Muslim
@@ -20,8 +20,24 @@ Virginia, and assuming that they will rent a place. We will look at the rent
 dataset from (https://www.zillow.com/research/data/) according to
 neighborhood, so that it's easy for us to check the rent data neighborhood
 wise. I am using only the narrowed down information that I could source
-from the website. I have cleaned the dataset. The formula I will be using will tell us
-which neighborhood is good to open a new halal restaurant.
+from the website. I have cleaned the dataset. The data set can be found in my repository here Neighborhoods_VA.csv. 
+The formula I will be using will tell us which neighborhood is good to open a new halal restaurant. 
+
+### Libraries used:
+Pandas
+Numpy
+bs4 Beautiful Soup
+geopy Nominatim
+os
+Folium
+requests
+matplotlib.pyplot 
+matplotlib.cm 
+matplotlib.colors
+matplotlib 
+re
+csv
+%matplotlib inline
 
 ### Methodology: 
    Narrowing down aspects to compare and consider not all
@@ -64,3 +80,9 @@ halal restaurant(which was the initial question of our client) with the
 information provided and can proudly say we have a basic template laid out
 for ourselves to get an in depth answer provided we get more data of our
 benefit to work with.
+
+
+### Acknowledgements:
+
+I sourced my code from publicly available data from https://www.zillow.com/research/data/.
+I was able to get venue and rating information from https://developer.foursquare.com/
